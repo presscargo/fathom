@@ -29,7 +29,7 @@
 		"gulp-sourcemaps": "^2.6.5",
 		"gulp-uglify": "^2.0.0",
 		"gulp-zip": "^5.0.0",
-		"minimist": "^1.2.3"
+		"minimist": "^1.2.6"
 	},
 	"scripts": {
     "bundle": "dir-archiver --src . --dest ../fathom.zip --exclude .DS_Store .ds_store .stylelintrc.json .eslintrc .git .gitattributes .github .gitignore README.md babel.config.json composer.json composer.lock gulpfile.js node_modules vendor package-lock.json package.json .travis.yml phpcs.xml.dist src style.css.map style.min.css.map"
